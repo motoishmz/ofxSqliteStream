@@ -71,7 +71,7 @@ public:
 		unlock();
 	}
 	
-	bool isRecording() const { return session; }
+	bool isRecording() const { return session != nullptr; }
 
 	//
 	

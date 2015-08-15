@@ -91,7 +91,7 @@ public:
 	
 	//
 
-	bool isOpend() const { return session; }
+	bool isOpend() const { return session != nullptr; }
 	bool isPlaying() const { return is_playing; }
 
 	float getPlaybackFps() const { return playback_fps; }
